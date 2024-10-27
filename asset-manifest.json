@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Amro-Portfolio/static/css/main.37d04d08.css",
+    "main.js": "/Amro-Portfolio/static/js/main.ca17c139.js",
+    "static/media/main-pic.jpg": "/Amro-Portfolio/static/media/main-pic.7a0f7f651b06b3044d01.jpg",
+    "static/media/Babylonica-Regular.ttf": "/Amro-Portfolio/static/media/Babylonica-Regular.dd7bcd9fd9042960b9c6.ttf",
+    "static/media/contact-pic.jpg": "/Amro-Portfolio/static/media/contact-pic.b19ec1e9c915f106ca38.jpg",
+    "static/media/Dreamscape-Sans.ttf": "/Amro-Portfolio/static/media/Dreamscape-Sans.ea04c603fbaa640baffb.ttf",
+    "index.html": "/Amro-Portfolio/index.html",
+    "main.37d04d08.css.map": "/Amro-Portfolio/static/css/main.37d04d08.css.map",
+    "main.ca17c139.js.map": "/Amro-Portfolio/static/js/main.ca17c139.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37d04d08.css",
+    "static/js/main.ca17c139.js"
+  ]
+}
