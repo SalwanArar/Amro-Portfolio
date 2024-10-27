@@ -1,0 +1,10 @@
+.project-page {
+  padding-inline: 20px;
+  .project-wrapper {
+    margin-inline: auto;
+    max-width: 1200px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}

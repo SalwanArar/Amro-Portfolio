@@ -1,0 +1,17 @@
+@import url(../../sass/fonts.scss);
+
+.gallery {
+  h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Dreamscape Sans";
+    font-size: 27px;
+  }
+
+  img {
+    margin-inline: 8px;
+    width: calc(100% - 16px);
+  }
+}

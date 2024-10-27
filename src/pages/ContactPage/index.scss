@@ -1,0 +1,68 @@
+@use "../../sass/colors.scss";
+
+.contact-page {
+  padding-inline: 20px;
+  color: colors.$custom-white;
+
+  .contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    font-family: "Dreamscape Sans";
+    letter-spacing: 2px;
+
+    .contact-texts {
+      width: max-content;
+
+      h1 {
+        font-size: 22px;
+        margin-bottom: 40px;
+      }
+
+      h2 {
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+
+    img {
+      width: 100%;
+      max-width: 300px;
+      min-width: 200px;
+      margin-inline: auto;
+    }
+  }
+
+  .contact-form {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 40px;
+
+    p {
+      font-family: "Dreamscape Sans";
+      letter-spacing: 2px;
+      color: colors.$custom-white;
+      font-size: 16px;
+    }
+
+    form {
+      .contact-submit {
+        padding: 15px 30px;
+        margin-top: 30px;
+
+        background-color: transparent;
+        border: solid 2px colors.$custom-white;
+        border-radius: 4px;
+
+        letter-spacing: 2px;
+        color: colors.$custom-white;
+
+        letter-spacing: 3px;
+        text-transform: capitalize;
+        font-weight: 600;
+      }
+    }
+  }
+}

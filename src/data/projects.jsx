@@ -1,0 +1,81 @@
+import pic from "../assets/images/main-pic.jpg";
+
+export const projects = [
+  {
+    id: "1",
+    path: "/projects/1",
+    alt: "project1",
+    src: pic,
+    name: "Project 1",
+  },
+  {
+    id: "2",
+    path: "/projects/2",
+    alt: "project2",
+    src: pic,
+    name: "Project 2",
+  },
+  {
+    id: "3",
+    path: "/projects/3",
+    alt: "project3",
+    src: pic,
+    name: "Project 3",
+  },
+  //   {
+  //     id: 4,
+  //     path: "/projects/4",
+  //     alt: "project4",
+  //     src: pic,
+  //     name: "Project 4",
+  //   },
+  //   {
+  //     id: 5,
+  //     path: "/projects/5",
+  //     alt: "project5",
+  //     src: pic,
+  //     name: "Project 5",
+  //   },
+  //   {
+  //     id: 6,
+  //     path: "/projects/2",
+  //     alt: "project2",
+  //     src: pic,
+  //     name: "Project 2",
+  //   },
+  //   {
+  //     id: 7,
+  //     path: "/projects/2",
+  //     alt: "project2",
+  //     src: pic,
+  //     name: "Project 2",
+  //   },
+  //   {
+  //     id: 8,
+  //     path: "/projects/2",
+  //     alt: "project2",
+  //     src: pic,
+  //     name: "Project 2",
+  //   },
+  //   {
+  //     id: 9,
+  //     path: "/projects/2",
+  //     alt: "project2",
+  //     src: pic,
+  //     name: "Project 2",
+  //   },
+  //   {
+  //     id: 10,
+  //     path: "/projects/2",
+  //     alt: "project2",
+  //     src: pic,
+  //     name: "Project 2",
+  //   },
+  //   {
+  //     id: 11,
+  //     path: "/projects/2",
+  //     alt: "project2",
+  //     src: pic,
+  //     name: "Project 2",
+  //   },
+];
