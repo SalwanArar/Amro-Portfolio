@@ -1,9 +1,6 @@
-// import { useState } from "react";
 import "./index.scss";
 
 function BurgerButton(props) {
-  //   const [toggle, setToggle] = useState(false);
-
   const changeToggleState = () => props.setToggle(!props.toggle);
 
   return (

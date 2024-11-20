@@ -1,5 +1,19 @@
 .layout {
   max-width: 1200px;
   margin-inline: auto;
-  padding-top: 120px;
+  // padding-top: 120px;
+  // height: 100dvh;
+  margin-left: 0;
+  padding-top: 100px;
+}
+
+@media (min-width: 900px) {
+  .layout {
+    width: calc(100% - 300px);
+    // width: 100%;
+    // margin-left: 0;
+    display: flex;
+    margin-left: 300px;
+    // padding-left: 200px;
+  }
 }

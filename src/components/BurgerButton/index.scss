@@ -1,55 +1,57 @@
 @use "../../sass/vars.scss";
 
-.burger-btn {
-  position: fixed;
-  top: 20px;
-  left: 20px;
+@media (max-width: 900px) {
+  .burger-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
 
-  padding-block: 12.5px;
-  padding-inline: 10px;
+    padding-block: 12.5px;
+    padding-inline: 10px;
 
-  width: vars.$burger-size;
-  aspect-ratio: 1;
+    width: vars.$burger-size;
+    aspect-ratio: 1;
 
-  border-radius: 50%;
-  background-color: black;
-  border: none;
+    border-radius: 50%;
+    background-color: black;
+    border: none;
 
-  z-index: 3;
+    z-index: 3;
 
-  :hover {
-    cursor: pointer;
-  }
-
-  .line {
-    width: 30px;
-    height: 3px;
-    border-radius: 3px;
-    background-color: white;
-    transform-origin: 0% 50%;
-
-    transition: all vars.$burger-ani-duration ease;
-
-    &:nth-child(1) {
-      margin-bottom: vars.$line-margin-bottom;
+    :hover {
+      cursor: pointer;
     }
-    &:nth-child(2) {
-      margin-bottom: vars.$line-margin-bottom;
-    }
-  }
 
-  &.active {
     .line {
+      width: 30px;
+      height: 3px;
+      border-radius: 3px;
+      background-color: white;
+      transform-origin: 0% 50%;
+
+      transition: all vars.$burger-ani-duration ease;
+
       &:nth-child(1) {
-        transform: rotate(vars.$line-active-angle);
-        width: vars.$line-active-width;
+        margin-bottom: vars.$line-margin-bottom;
       }
       &:nth-child(2) {
-        background-color: transparent;
+        margin-bottom: vars.$line-margin-bottom;
       }
-      &:nth-child(3) {
-        transform: rotate(-(vars.$line-active-angle));
-        width: vars.$line-active-width;
+    }
+
+    &.active {
+      .line {
+        &:nth-child(1) {
+          transform: rotate(vars.$line-active-angle);
+          width: vars.$line-active-width;
+        }
+        &:nth-child(2) {
+          background-color: transparent;
+        }
+        &:nth-child(3) {
+          transform: rotate(-(vars.$line-active-angle));
+          width: vars.$line-active-width;
+        }
       }
     }
   }

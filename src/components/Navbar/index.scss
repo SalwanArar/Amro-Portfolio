@@ -2,27 +2,29 @@
 @use "../../sass/vars.scss";
 
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   position: fixed;
   top: 0;
   left: 0;
+  width: 250px;
+  height: 100dvh;
+  margin-left: 40px;
+  background-color: colors.$custom-black;
 
-  width: 100%;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 
-  color: colors.$custom-white;
-  background-color: #000000aa;
-
-  z-index: -1;
-  opacity: 0;
-  transition: opacity vars.$header-ani-duration ease;
   .nav-wrapper {
+    color: colors.$custom-white;
+    height: 100%;
     position: relative;
-
     nav {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-block: auto;
       ul {
         display: flex;
         flex-direction: column;
@@ -45,14 +47,14 @@ header {
         }
       }
     }
-
     .contact-bar {
       position: absolute;
-      bottom: -80px;
+      bottom: 20px;
       left: 50%;
       transform: translateX(-50%);
 
       display: flex;
+      justify-content: center;
       gap: 10px;
 
       svg {
@@ -60,9 +62,45 @@ header {
       }
     }
   }
+}
 
-  &.active {
-    opacity: 1;
-    z-index: 2;
+@media (max-width: 900px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+
+    color: colors.$custom-white;
+    background-color: #000000aa;
+
+    z-index: -1;
+    opacity: 0;
+    transition: opacity vars.$header-ani-duration ease;
+    .nav-wrapper {
+      .contact-bar {
+        // position: absolute;
+        bottom: 0px;
+
+        display: flex;
+        gap: 10px;
+
+        svg {
+          font-size: 24px;
+        }
+      }
+    }
+
+    &.active {
+      opacity: 1;
+      z-index: 2;
+    }
   }
 }
