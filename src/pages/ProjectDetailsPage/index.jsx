@@ -9,6 +9,11 @@ function ProjectDetailsPage() {
     <div className="project-details">
       <h1>{project.name}</h1>
       <img src={project.src} alt={project.alt} />
+      <img src={project.src} alt={project.alt} />
+      <img src={project.src} alt={project.alt} />
+      <img src={project.src} alt={project.alt} />
+      <img src={project.src} alt={project.alt} />
+      <img src={project.src} alt={project.alt} />
     </div>
   );
 }

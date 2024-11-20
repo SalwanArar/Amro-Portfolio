@@ -3,11 +3,12 @@
 .project-details {
   display: flex;
   flex-direction: column;
+  gap: 20px;
   align-items: center;
 
   h1 {
     color: colors.$nav-linke-color-active;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   p {

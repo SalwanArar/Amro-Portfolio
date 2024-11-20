@@ -7,6 +7,8 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavLink } from "react-router-dom";
 
+import logo from "../../assets/images/logo.png";
+
 const links = [
   {
     path: "/",
@@ -27,6 +29,7 @@ function Navbar(props) {
   return (
     <header className={props.active ? "active" : ""}>
       <div className="nav-wrapper">
+        <img src={logo} alt="Logo" />
         <nav>
           <ul>
             {links.map((link, id) => (

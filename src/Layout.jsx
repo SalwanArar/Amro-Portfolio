@@ -7,13 +7,11 @@ import Navbar from "./components/Navbar";
 function Layout() {
   const [toggle, setToggle] = useState(false);
   return (
-    <>
-      <div className="layout">
-        <BurgerButton setToggle={setToggle} toggle={toggle} />
-        <Navbar active={toggle} setToggle={setToggle} />
-        <Outlet />
-      </div>
-    </>
+    <div className="layout">
+      <BurgerButton setToggle={setToggle} toggle={toggle} />
+      <Navbar active={toggle} setToggle={setToggle} />
+      <Outlet />
+    </div>
   );
 }
 
