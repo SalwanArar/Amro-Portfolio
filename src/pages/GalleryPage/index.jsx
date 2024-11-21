@@ -5,11 +5,6 @@ function GalleryPage() {
     <div className="gallery">
       <h1>welcome to the imagination of amro</h1>
       <img src={pic} alt="main" />
-      <img src={pic} alt="main" />
-      <img src={pic} alt="main" />
-      <img src={pic} alt="main" />
-      <img src={pic} alt="main" />
-      <img src={pic} alt="main" />
     </div>
   );
 }
