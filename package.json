@@ -1,7 +1,7 @@
 {
   "name": "amro-portfolio",
   "version": "0.1.0",
-  "homepage": "https://SalwanArar.github.io/Amro-Portfolio",
+  "homepage": "https://SalwanArar.github.io/Amro-Portfolio/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
