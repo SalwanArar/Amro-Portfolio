@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Amro-Portfolio/static/css/main.4714c0f0.css",
-    "main.js": "/Amro-Portfolio/static/js/main.2551fb25.js",
+    "main.js": "/Amro-Portfolio/static/js/main.04fa0d16.js",
     "static/media/01.gif": "/Amro-Portfolio/static/media/01.096fe4ddbf657e6ccc1e.gif",
     "static/media/02.jpg": "/Amro-Portfolio/static/media/02.8f47ec13ffa4d93c7fde.jpg",
     "static/media/03.gif": "/Amro-Portfolio/static/media/03.32a8c31d423ee001a0e0.gif",
@@ -30,10 +30,10 @@
     "static/media/Dreamscape-Sans.ttf": "/Amro-Portfolio/static/media/Dreamscape-Sans.ea04c603fbaa640baffb.ttf",
     "index.html": "/Amro-Portfolio/index.html",
     "main.4714c0f0.css.map": "/Amro-Portfolio/static/css/main.4714c0f0.css.map",
-    "main.2551fb25.js.map": "/Amro-Portfolio/static/js/main.2551fb25.js.map"
+    "main.04fa0d16.js.map": "/Amro-Portfolio/static/js/main.04fa0d16.js.map"
   },
   "entrypoints": [
     "static/css/main.4714c0f0.css",
-    "static/js/main.2551fb25.js"
+    "static/js/main.04fa0d16.js"
   ]
 }
